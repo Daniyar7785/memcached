@@ -1,0 +1,9 @@
+###########install memcached###########
+
+
+###### IN ORDER TO DEPLOY MEMCACHED PLEASE HAVE HELM INSTALLED IN YOUR OS ########
+
+helm ls
+helm repo add bitnami htpps://charts.bitnami.com/bitnami
+helm repo update
+helm install <specifynameyouwant> bitnami/memcached -n <specifynamespaceyouwanttoinstall>
